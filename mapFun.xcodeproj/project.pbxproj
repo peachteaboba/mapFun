@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		8AA116B61DFB731400CAEEE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA116B51DFB731400CAEEE9 /* AppDelegate.swift */; };
-		8AA116B81DFB731400CAEEE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA116B71DFB731400CAEEE9 /* ViewController.swift */; };
+		8AA116B81DFB731400CAEEE9 /* SweetMapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA116B71DFB731400CAEEE9 /* SweetMapsViewController.swift */; };
 		8AA116BB1DFB731400CAEEE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AA116B91DFB731400CAEEE9 /* Main.storyboard */; };
 		8AA116BD1DFB731400CAEEE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AA116BC1DFB731400CAEEE9 /* Assets.xcassets */; };
 		8AA116C01DFB731400CAEEE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AA116BE1DFB731400CAEEE9 /* LaunchScreen.storyboard */; };
+		8AA116C81DFB796500CAEEE9 /* cp2.2.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8AA116C71DFB796500CAEEE9 /* cp2.2.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8AA116B21DFB731400CAEEE9 /* mapFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mapFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AA116B51DFB731400CAEEE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8AA116B71DFB731400CAEEE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8AA116B71DFB731400CAEEE9 /* SweetMapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweetMapsViewController.swift; sourceTree = "<group>"; };
 		8AA116BA1DFB731400CAEEE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8AA116BC1DFB731400CAEEE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AA116BF1DFB731400CAEEE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AA116C11DFB731400CAEEE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AA116C71DFB796500CAEEE9 /* cp2.2.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = cp2.2.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		8AA116A91DFB731400CAEEE9 = {
 			isa = PBXGroup;
 			children = (
+				8AA116C71DFB796500CAEEE9 /* cp2.2.gpx */,
 				8AA116B41DFB731400CAEEE9 /* mapFun */,
 				8AA116B31DFB731400CAEEE9 /* Products */,
 			);
@@ -55,7 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				8AA116B51DFB731400CAEEE9 /* AppDelegate.swift */,
-				8AA116B71DFB731400CAEEE9 /* ViewController.swift */,
+				8AA116B71DFB731400CAEEE9 /* SweetMapsViewController.swift */,
 				8AA116B91DFB731400CAEEE9 /* Main.storyboard */,
 				8AA116BC1DFB731400CAEEE9 /* Assets.xcassets */,
 				8AA116BE1DFB731400CAEEE9 /* LaunchScreen.storyboard */,
@@ -127,6 +130,7 @@
 				8AA116C01DFB731400CAEEE9 /* LaunchScreen.storyboard in Resources */,
 				8AA116BD1DFB731400CAEEE9 /* Assets.xcassets in Resources */,
 				8AA116BB1DFB731400CAEEE9 /* Main.storyboard in Resources */,
+				8AA116C81DFB796500CAEEE9 /* cp2.2.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AA116B81DFB731400CAEEE9 /* ViewController.swift in Sources */,
+				8AA116B81DFB731400CAEEE9 /* SweetMapsViewController.swift in Sources */,
 				8AA116B61DFB731400CAEEE9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
